@@ -1,2 +1,41 @@
-# Created by .ignore support plugin (hsz.mobi)
-.DS_Store
+# 実行ファイル、プログラム系ファイル
+*.exe
+*.dll
+*.o
+*.class
+*.pyc
+*.obj
+
+# 機密情報
+credentials
+*.env
+*.key
+*.pem
+
+# ログファイル
+*.log
+
+# VS Code のワークスペース定義ファイル
+*.code-workspace
+
+# Windows ショートカットファイル
+*.lnk
+
+# PDF
+*.pdf
+*.PDF
+
+# 圧縮ファイル
+*.zip
+*.tar
+*.gz
+
+# OS 固有 (macOS)
+*.DS_Store
+
+# OS 固有 (Windows)
+Thumbs.db
+Desktop.ini
+
+# このフォルダ配下は git 管理対象外
+IGNORE/
